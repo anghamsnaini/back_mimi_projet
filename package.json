@@ -1,0 +1,26 @@
+{
+  "name": "retro_server",
+  "version": "1.0.0",
+  "description": "Serveur HTTP pour API REST",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server",
+    "angular",
+    "nodejs",
+    "express",
+    "rest",
+    "api"
+  ],
+  "author": "Touailia Angham",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}
