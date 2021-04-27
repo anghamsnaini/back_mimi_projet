@@ -13,7 +13,7 @@ exports.create = (req, res) => {
 }
 
 // Créer un produit
-const tutorial = {
+const produit = {
   nom: req.body.nom,
   prix_unitaire: req.body.prix_unitaire,
   quantite: req.body.quantite
